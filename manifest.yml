@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: imeylonganilla
+  name: imeylonganilla
+  memory: 512M
+  stack: cflinuxfs2
